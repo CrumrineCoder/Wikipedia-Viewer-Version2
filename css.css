@@ -5,8 +5,7 @@ body {
   color: white; 
   background: #232B2B;
   margin: 0;
-  width: 100%;
-  height: 100%;
+
 }
 
 /* Header */
@@ -45,17 +44,13 @@ nav {
   white-space: nowrap;
   position: relative;
   margin: 10px auto;
-  width: 300px;
-  height: 50px;
+  width: 35%;
   
 }
-/*
-
-*/
 
 #searchContainer input {
 
-  width: 300px;
+  width: 90%;
   height: 50px;
   background: #2b303b;
   border: none;
@@ -98,6 +93,7 @@ nav {
   background: #ffffff;
 }
 
+
 #randomSearch{
  margin: 10px auto; 
     display:block;
@@ -136,4 +132,13 @@ h3 {
 }
 #contentContainer{
 	 text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	#searchContainer{
+		width: 100%; 
+	}
+	#searchContainer input {
+		width: 100%; 
+	}
 }

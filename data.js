@@ -47,7 +47,6 @@ function generateRandom(){
     url: url,
     dataType: "jsonp",
     success: function(data) { 
-	console.log(data);
 		contentContainer.innerHTML = "";
 		for (i = 0; i < limit; i++) {
 			if (data.query.random[i].title != undefined) {
