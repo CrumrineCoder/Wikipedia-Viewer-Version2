@@ -132,6 +132,7 @@ h3 {
 }
 #contentContainer{
 	 text-align: center;
+	 margin-top: 100px
 }
 
 @media screen and (max-width: 800px) {
