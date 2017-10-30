@@ -3,17 +3,18 @@ function openWin() {
 } 
 
 // Search Bar Functionality
+ var contentContainer = document.getElementById("contentContainer"); 
 var a = document.getElementById('tfnewsearch');
 $('.tftextinput').on('input', function(e) { // "Borrowed" from https://codepen.io/victoriousj/pen/rLzZkr?editors=1011
   if ($('.tftextinput').val() !== '') {
     wiki($('.tftextinput').val());
   } else {
-    $("#content").html(" <p id='randomText'>Click on the icon below to go to a random article, or use the search bar to find an article. </p> <a href='https://en.wikipedia.org/wiki/Special:Random'><img src='https://www.dropbox.com/s/mzk1pqc4stj9qz6/wikipedia%20logo.png?raw=1' id='randomArt'></a>");
+       contentContainer.innerHTML = "";
   }
 });
 
 function wiki(b) { 
- var contentContainer = document.getElementById("contentContainer"); 
+
   var limit = 10;
   var url = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + b + "&limit=" + String(limit) + "&namespace=0&format=json";
   $.ajax({ 
