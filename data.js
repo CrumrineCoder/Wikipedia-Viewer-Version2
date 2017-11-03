@@ -50,7 +50,7 @@ function generateRandom(){
 		contentContainer.innerHTML = "";
 		for (i = 0; i < limit; i++) {
 			if (data.query.random[i].title != undefined) {
-				var newData = "<a href=" + "'https://en.wikipedia.org/wiki/" + data.query.random[i].title + "' class='entry' id='" + i + "' >" + "<h3>" + data.query.random[i].title + "</h3></a>" + "<br>";
+				var newData = "<a href=" + "'https://en.wikipedia.org/wiki/" + data.query.random[i].title + "' class='entry' id='" + i + "' target='_blank'>" + "<h3>" + data.query.random[i].title + "</h3></a>" + "<br>";
 				contentContainer.innerHTML += newData;
 			} else {
 				contentContainer.innerHTML = "<h3 class='entry'> There are no articles to display </h3>"
