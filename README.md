@@ -1,4 +1,4 @@
-# Wikipedia Viewer
+# Wikipedia Viewer App
 
 This is a front end project built as part of FreeCodeCamp's cirriculum. The website allows users to get a random wikipedia page or search for a list of wikipedia pages. It uses the wikipedia API. 
 
