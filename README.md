@@ -1,6 +1,6 @@
 # Wikipedia Viewer App
 
-This is a front end project built as part of FreeCodeCamp's cirriculum. The website allows users to get a list of random wikipedia entries or search for a list of wikipedia entries. It uses the wikipedia API. 
+This is a front end project built as part of FreeCodeCamp's cirriculum, found [here](https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer). The website allows users to get a list of random wikipedia entries or search for a list of wikipedia entries. It uses the wikipedia API. 
 
 ## User Stories
 
