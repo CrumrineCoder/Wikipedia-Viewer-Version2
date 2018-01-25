@@ -37,7 +37,7 @@ function wiki(b) {
 				// If there are wiki articles to display
                 if (data[2][i] != undefined) {
 					// Format the data
-                    var newData = "<a href=" + "'https://en.wikipedia.org/wiki/" + data[1][i] + "' class='entry' id='" + i + "' target='_blank'>" + "<h3>" + data[1][i] + "</h3>" + "<br>" + data[2][i] + "</a>" + "<br>";\
+                    var newData = "<a href=" + "'https://en.wikipedia.org/wiki/" + data[1][i] + "' class='entry' id='" + i + "' target='_blank'>" + "<h3>" + data[1][i] + "</h3>" + "<br>" + data[2][i] + "</a>" + "<br>";
 					// Add the data to the results
                     contentContainer.innerHTML += newData;
                 } else if (data[2][i] == undefined) {
