@@ -1,6 +1,8 @@
 # Wikipedia Viewer App
 
-This is a front end project built as part of FreeCodeCamp's cirriculum, found [here](https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer). The website allows users to get a list of random wikipedia entries or search for a list of wikipedia entries. It uses the wikipedia API. 
+This is a web app that uses the Wikipedia API to searching for multiple Wikipedia pages by term or randomly.
+
+This was built as part of FreeCodeCamp's frontend curriculum. I like the colors I picked out for this design as well as its layout. The Wikipedia API doesn't give that much information so once I teach myself React I'm going to redo this project to get proper data in a layout similar to the revised Twtich.tv viewer. I'd like to do this same website but for the TvTropes website instead of Wikipedia, but their API doesn't work.
 
 ## User Stories
 
