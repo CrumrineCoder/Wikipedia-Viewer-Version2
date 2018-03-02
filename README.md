@@ -27,4 +27,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* r/freecodecamp for reviewing my project and giving suggestions. I also asked on the FreeCodeCamp slack for coding critique. My father and brother helped with the redesign of this website
+* r/freecodecamp for reviewing my project and giving suggestions. I also asked on the FreeCodeCamp slack for coding critique. My father and brother helped with the redesign of this website.
