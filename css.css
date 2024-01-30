@@ -5,7 +5,10 @@ body {
   color: white; 
   background: #232B2B;
   margin: 0;
-
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Header */
@@ -47,7 +50,6 @@ nav {
   position: relative;
   margin: 10px auto;
   width: 35%;
-  
 }
 
 #searchContainer input {
@@ -128,6 +130,7 @@ h3 {
   display: inline-block;
   margin-bottom: 10px;
   width: 75%;
+  border-radius: 10px; 
 }
 
 .entry:hover{
